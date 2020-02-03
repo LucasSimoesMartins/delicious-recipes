@@ -22,9 +22,10 @@ class SplashActivity : AppCompatActivity() {
 
     private fun configureSplash() {
 
-        val animList = arrayListOf(R.raw.beer, R.raw.hamburger,
-            R.raw.knife_and_fork, R.raw.milkshake, R.raw.noodles,
-            R.raw.pizza, R.raw.popsicle, R.raw.tea)
+        val animList = arrayListOf(
+            R.raw.beer, R.raw.hamburger, R.raw.knife_and_fork,
+            R.raw.milkshake, R.raw.pizza, R.raw.popsicle
+        )
 
         val anim = animList[(0..animList.size).random()]
         lavSplash.setAnimation(anim)

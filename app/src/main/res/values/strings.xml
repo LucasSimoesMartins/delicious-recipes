@@ -2,7 +2,7 @@
     <string name="app_name">Delicious Recipes</string>
     <string name="quick_question">Quick Question:</string>
     <string name="would_you_like_to_see_quick_preferences">Would you like to see quick preferences?</string>
-    <string name="e_g_vegetarian_intolerances_disliked_ingredients_and_more">(e.g. vegetarian, intolerances, disliked ingredients and more)</string>
+    <string name="e_g_diets_intolerances_disliked_ingredients_and_more">(e.g. diets, intolerances, disliked ingredients and more)</string>
     <string name="no_show_me_all_the_recipes">No, show me all the recipes</string>
     <string name="yes_i_want_to_customize">Yes, I want to customize</string>
 </resources>

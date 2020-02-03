@@ -12,18 +12,9 @@
      android:layout_height="match_parent"
      app:lottie_autoPlay="true"
      app:lottie_loop="true"
-     app:lottie_rawRes="@raw/popsicle"
      app:layout_constraintBottom_toBottomOf="parent"
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toTopOf="parent" />
-
-<!-- <ImageView-->
-<!--     android:id="@+id/imageView"-->
-<!--     android:layout_width="wrap_content"-->
-<!--     android:layout_height="wrap_content"-->
-<!--     app:srcCompat="@mipmap/ic_launcher"-->
-<!--     tools:layout_editor_absoluteX="159dp"-->
-<!--     tools:layout_editor_absoluteY="140dp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
