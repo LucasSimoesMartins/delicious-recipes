@@ -1,10 +1,11 @@
-package com.lucassimoesmartins.deliciousrecipes
+package com.lucassimoesmartins.deliciousrecipes.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
+import com.lucassimoesmartins.deliciousrecipes.R
 import kotlinx.android.synthetic.main.activity_quick_preferences.*
 
 class QuickPreferencesActivity : AppCompatActivity(), View.OnClickListener {

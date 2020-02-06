@@ -11,9 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".PreferencesActivity"></activity>
-        <activity android:name=".QuickPreferencesActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".ui.view.PreferencesActivity"></activity>
+        <activity android:name=".ui.view.QuickPreferencesActivity" />
+        <activity android:name=".ui.view.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

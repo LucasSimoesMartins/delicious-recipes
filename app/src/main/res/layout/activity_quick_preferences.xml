@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#61C6F4"
     android:padding="24dp"
-    tools:context=".QuickPreferencesActivity">
+    tools:context=".ui.view.QuickPreferencesActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"

@@ -1,8 +1,9 @@
-package com.lucassimoesmartins.deliciousrecipes
+package com.lucassimoesmartins.deliciousrecipes.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.lucassimoesmartins.deliciousrecipes.R
 import kotlinx.android.synthetic.main.activity_preferences.*
 
 class PreferencesActivity : AppCompatActivity() {
