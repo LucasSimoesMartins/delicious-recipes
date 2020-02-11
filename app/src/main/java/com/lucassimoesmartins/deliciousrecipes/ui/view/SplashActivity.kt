@@ -38,6 +38,7 @@ class SplashActivity : AppCompatActivity() {
         val handle = Handler()
         handle.postDelayed({
             startActivity(Intent(this, QuickPreferencesActivity::class.java))
+            finish()
         },3000)
     }
 }
