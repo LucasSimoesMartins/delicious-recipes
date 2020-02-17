@@ -1,6 +1,12 @@
 package com.lucassimoesmartins.deliciousrecipes.model
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity
 data class Result(
+    @PrimaryKey
+    val id: Int,
     val aggregateLikes: Int,
     val analyzedInstructions: List<AnalyzedInstruction>,
     val cheap: Boolean,
@@ -13,7 +19,6 @@ data class Result(
     val gaps: String,
     val glutenFree: Boolean,
     val healthScore: Int,
-    val id: Int,
     val image: String,
     val imageType: String,
     val likes: Int,

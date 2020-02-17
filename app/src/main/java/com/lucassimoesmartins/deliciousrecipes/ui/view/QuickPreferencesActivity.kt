@@ -44,13 +44,6 @@ class QuickPreferencesActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btnPreferences -> {
 //                startActivity(Intent(this, PreferencesActivity::class.java))
 
-                viewModel.getRecipesComplexSearch().observe(this, Observer {
-                    it?.let {
-                        var a = 1
-                    }
-                })
-
-
             }
         }
     }
