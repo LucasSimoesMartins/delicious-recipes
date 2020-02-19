@@ -4,7 +4,9 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import com.lucassimoesmartins.deliciousrecipes.constants.Constants
+import com.lucassimoesmartins.deliciousrecipes.database.converter.Converters
 import com.lucassimoesmartins.deliciousrecipes.database.dao.RecipeDAO
 import com.lucassimoesmartins.deliciousrecipes.model.Preference
 import com.lucassimoesmartins.deliciousrecipes.model.Result
@@ -14,6 +16,7 @@ import com.lucassimoesmartins.deliciousrecipes.model.Result
     version = Constants.DATABASE_VERSION,
     exportSchema = false
 )
+@TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
 
     abstract val dao: RecipeDAO

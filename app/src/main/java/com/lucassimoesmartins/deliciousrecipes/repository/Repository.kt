@@ -2,10 +2,12 @@ package com.lucassimoesmartins.deliciousrecipes.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.lucassimoesmartins.deliciousrecipes.database.dao.RecipeDAO
 import com.lucassimoesmartins.deliciousrecipes.model.Recipe
 import com.lucassimoesmartins.deliciousrecipes.retrofit.webclient.WebClient
 
 class Repository(
+    private val dao: RecipeDAO,
     private val webClient: WebClient = WebClient()
 ) {
     fun getRecipesComplexSearch(): LiveData<Resource<Recipe>> {
